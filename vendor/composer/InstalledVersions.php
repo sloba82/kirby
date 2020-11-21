@@ -14,12 +14,12 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-setup',
+    'version' => 'dev-setup',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => 'eca1670f17fa300f4b728c2029715e07014960dc',
     'name' => 'getkirby/starterkit',
   ),
   'versions' => 
@@ -62,12 +62,12 @@ private static $installed = array (
     ),
     'getkirby/starterkit' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-setup',
+      'version' => 'dev-setup',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'eca1670f17fa300f4b728c2029715e07014960dc',
     ),
     'laminas/laminas-escaper' => 
     array (
@@ -138,6 +138,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '0f73288fd15629204f9d42b7055f72dacbe811fc',
+    ),
+    'robinscholz/better-rest' => 
+    array (
+      'pretty_version' => '1.2.6',
+      'version' => '1.2.6.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '912eee6a050c76f87e81efeaf19509fe448b5b3c',
     ),
     'symfony/polyfill-mbstring' => 
     array (

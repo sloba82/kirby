@@ -7,8 +7,8 @@ namespace Composer\Autoload;
 class ComposerStaticInit58619b9f5ef139ecd8352b0b9404df01
 {
     public static $files = array (
-        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '7e9bd612cc444b3eed788ebbe46263a0' => __DIR__ . '/..' . '/laminas/laminas-zendframework-bridge/src/autoload.php',
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '04c6c5c2f7095ccf6c481d3e53e1776f' => __DIR__ . '/..' . '/mustangostang/spyc/Spyc.php',
         'f864ae44e8154e5ff6f4eec32f46d37f' => __DIR__ . '/../..' . '/kirby/config/setup.php',
     );
@@ -25,6 +25,10 @@ class ComposerStaticInit58619b9f5ef139ecd8352b0b9404df01
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
+        ),
+        'R' => 
+        array (
+            'Robinscholz\\' => 12,
         ),
         'P' => 
         array (
@@ -55,6 +59,10 @@ class ComposerStaticInit58619b9f5ef139ecd8352b0b9404df01
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
         ),
+        'Robinscholz\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/site/plugins/better-rest/classes',
+        ),
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
@@ -73,8 +81,8 @@ class ComposerStaticInit58619b9f5ef139ecd8352b0b9404df01
         ),
         'Kirby\\' => 
         array (
-            0 => __DIR__ . '/..' . '/getkirby/composer-installer/src',
-            1 => __DIR__ . '/../..' . '/kirby/src',
+            0 => __DIR__ . '/../..' . '/kirby/src',
+            1 => __DIR__ . '/..' . '/getkirby/composer-installer/src',
         ),
     );
 
@@ -337,6 +345,7 @@ class ComposerStaticInit58619b9f5ef139ecd8352b0b9404df01
         'Psr\\Log\\Test\\DummyTest' => __DIR__ . '/..' . '/psr/log/Psr/Log/Test/DummyTest.php',
         'Psr\\Log\\Test\\LoggerInterfaceTest' => __DIR__ . '/..' . '/psr/log/Psr/Log/Test/LoggerInterfaceTest.php',
         'Psr\\Log\\Test\\TestLogger' => __DIR__ . '/..' . '/psr/log/Psr/Log/Test/TestLogger.php',
+        'Robinscholz\\Betterrest' => __DIR__ . '/../..' . '/site/plugins/better-rest/classes/Betterrest.php',
         'Symfony\\Polyfill\\Mbstring\\Mbstring' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/Mbstring.php',
         'TrueBV\\Exception\\DomainOutOfBoundsException' => __DIR__ . '/..' . '/true/punycode/src/Exception/DomainOutOfBoundsException.php',
         'TrueBV\\Exception\\LabelOutOfBoundsException' => __DIR__ . '/..' . '/true/punycode/src/Exception/LabelOutOfBoundsException.php',
