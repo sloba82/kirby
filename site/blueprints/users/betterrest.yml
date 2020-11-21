@@ -6,6 +6,7 @@ permissions:
     panel: true
     users: false
     site: false
+    settings: false
   site:
     update: false
   pages:
@@ -32,4 +33,12 @@ permissions:
     changeName: false
     delete: false
     replace: false
+    update: false
+  user:
+    changeEmail: false
+    changeLanguage: false
+    changeName: false
+    changePassword: false
+    changeRole: false
+    delete: false
     update: false
