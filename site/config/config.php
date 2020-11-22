@@ -7,17 +7,20 @@
  * This setting must be set to false in production.
  * All config options: https://getkirby.com/docs/reference/system/options
  */
+
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Headers: *');
+header('Access-Control-Allow-Methods: *');
 return [
     'api' => [
        'basicAuth' => true,
        'allowInsecure' => true,
         'routes' => [
             [
-              'pattern' => 'my-endpoint',
+              'pattern' => '(:all)',
+              'method' => 'GET',
               'action'  => function () {
-                return [
-                  'hello' => 'world'
-                ];
+                return true;
               }
             ]
           ]
