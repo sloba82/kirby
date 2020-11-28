@@ -8,9 +8,12 @@
  * All config options: https://getkirby.com/docs/reference/system/options
  */
 
+
+
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Headers: *');
 header('Access-Control-Allow-Methods: *');
+
 return [
     'api' => [
        'basicAuth' => true,
